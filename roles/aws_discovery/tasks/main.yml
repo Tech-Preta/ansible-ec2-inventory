@@ -1,0 +1,5 @@
+- name: Copiar chave SSH para instâncias
+  authorized_key:
+    user: "{{ ansible_user }}"
+    state: present
+    key: "{{ lookup('file', public_key_path) }}"
