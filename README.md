@@ -1,4 +1,3 @@
-# ansible-ec2-inventory
 # Projeto Ansible para Descoberta de Instâncias AWS e Configuração SSH
 
 Este projeto Ansible descobre instâncias EC2 na AWS e configura a chave SSH do host controlador nas instâncias descobertas.
